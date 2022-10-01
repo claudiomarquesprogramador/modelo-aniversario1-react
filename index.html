@@ -1,0 +1,14 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="favicon_transparent_32x32.png"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/><title>Modelo Aniversário 1</title><link href="./static/css/main.2775dbeb.css" rel="stylesheet"></head><body><div id="root"></div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script><script src="https://unpkg.com/aos@next/dist/aos.js"></script><script>AOS.init({
+        duration: 3000,
+      });
+
+      function message(){
+        let phone = prompt("Digite seu DDD + número!")
+        if (phone==null){
+            alert("Cancelado!")
+            return
+        }else{
+            let send = "https://wa.me/55"+phone+"?text="+"Quero confirmar presença!%20";
+            let whatsapp = window.open(send,"_self");
+        }
+      }</script><script type="text/javascript" src="./static/js/main.acc255e3.js"></script></body></html>
